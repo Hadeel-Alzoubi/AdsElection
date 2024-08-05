@@ -1,0 +1,473 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Travisa - Visa & Immigration Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@200;300;400;500;600&display=swap"
+          rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="~/Content/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="~/Content/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="~/Content/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="~/Content/css/style.css" rel="stylesheet">
+
+    <style>
+        // Formatting Styles
+
+        hr {
+            margin: 20px 0;
+            border: none;
+            border-bottom: 1px solid #d9d9d9;
+        }
+
+        label,
+        input {
+            cursor: pointer;
+        }
+
+        h2,
+        h3,
+        h4,
+        h5 {
+            font-weight: 600;
+            line-height: 1.3;
+            color: #1f2949;
+        }
+
+        h2 {
+            font-size: 24px;
+        }
+
+        h3 {
+            font-size: 18px;
+        }
+
+        h4 {
+            font-size: 14px;
+        }
+
+        h5 {
+            font-size: 12px;
+            font-weight: 400;
+        }
+
+        img {
+            max-width: 100%;
+            display: block;
+            vertical-align: middle;
+        }
+
+        .container {
+            max-width: 99vw;
+            margin: 15px auto;
+            padding: 0 15px;
+        }
+
+        .top-text-wrapper {
+            margin: 20px 0 30px 0;
+        }
+
+            .top-text-wrapper h4 {
+                font-size: 24px;
+                margin-bottom: 10px;
+            }
+
+            .top-text-wrapper code {
+                font-size: 0.85em;
+                background: linear-gradient(90deg, #fce3ec, #ffe8cc);
+                color: #ff2200;
+                padding: 0.1rem 0.3rem 0.2rem;
+                border-radius: 0.2rem;
+            }
+
+        .tab-section-wrapper {
+            padding: 30px 0;
+        }
+
+        .grid-wrapper {
+            display: grid;
+            grid-gap: 30px;
+            place-items: center;
+            place-content: center;
+        }
+
+        .grid-col-auto {
+            // grid-template-columns: repeat(auto-fill, minmax(280px, 0.1fr));
+            grid-auto-flow: column;
+            grid-template-rows: auto;
+        }
+
+        /* ******************* Main Styeles : Radio Card */
+
+        $primary-color: #3057d5;
+        $transition: 200ms linear;
+
+        label.radio-card {
+            cursor: pointer;
+            .card-content-wrapper
+
+        {
+            background: #fff;
+            border-radius: 5px;
+            max-width: 280px;
+            min-height: 330px;
+            padding: 15px;
+            display: grid;
+            box-shadow: 0 2px 4px 0 rgba(219, 215, 215, 0.04);
+            transition: $transition;
+        }
+
+        .check-icon {
+            width: 20px;
+            height: 20px;
+            display: inline-block;
+            border: solid 2px #e3e3e3;
+            border-radius: 50%;
+            transition: $transition;
+            position: relative;
+            &:before
+
+        {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-image: url("data:image/svg+xml,%3Csvg width='12' height='9' viewBox='0 0 12 9' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.93552 4.58423C0.890286 4.53718 0.854262 4.48209 0.829309 4.42179C0.779553 4.28741 0.779553 4.13965 0.829309 4.00527C0.853759 3.94471 0.889842 3.88952 0.93552 3.84283L1.68941 3.12018C1.73378 3.06821 1.7893 3.02692 1.85185 2.99939C1.91206 2.97215 1.97736 2.95796 2.04345 2.95774C2.11507 2.95635 2.18613 2.97056 2.2517 2.99939C2.31652 3.02822 2.3752 3.06922 2.42456 3.12018L4.69872 5.39851L9.58026 0.516971C9.62828 0.466328 9.68554 0.42533 9.74895 0.396182C9.81468 0.367844 9.88563 0.353653 9.95721 0.354531C10.0244 0.354903 10.0907 0.369582 10.1517 0.397592C10.2128 0.425602 10.2672 0.466298 10.3112 0.516971L11.0651 1.25003C11.1108 1.29672 11.1469 1.35191 11.1713 1.41247C11.2211 1.54686 11.2211 1.69461 11.1713 1.82899C11.1464 1.88929 11.1104 1.94439 11.0651 1.99143L5.06525 7.96007C5.02054 8.0122 4.96514 8.0541 4.90281 8.08294C4.76944 8.13802 4.61967 8.13802 4.4863 8.08294C4.42397 8.0541 4.36857 8.0122 4.32386 7.96007L0.93552 4.58423Z' fill='white'/%3E%3C/svg%3E%0A");
+            background-repeat: no-repeat;
+            background-size: 12px;
+            background-position: center center;
+            transform: scale(1.6);
+            transition: $transition;
+            opacity: 0;
+        }
+
+        }
+
+        input[type='radio'] {
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            &:checked
+
+        {
+            + .card-content-wrapper
+
+        {
+            box-shadow: 0 2px 4px 0 rgba(219, 215, 215, 0.5), 0 0 0 2px $primary-color;
+            .check-icon
+
+        {
+            background: $primary-color;
+            border-color: $primary-color;
+            transform: scale(1.2);
+            &:before
+
+        {
+            transform: scale(1);
+            opacity: 1;
+        }
+
+        }
+        }
+        }
+
+        &:focus {
+            + .card-content-wrapper
+
+        {
+            .check-icon
+
+        {
+            box-shadow: 0 0 0 4px rgba(48, 86, 213, 0.2);
+            border-color: #3056d5;
+        }
+
+        }
+        }
+        }
+
+        .card-content {
+            img
+
+        {
+            margin-bottom: 10px;
+        }
+
+        h4 {
+            font-size: 16px;
+            letter-spacing: -0.24px;
+            text-align: center;
+            color: #1f2949;
+            margin-bottom: 10px;
+        }
+
+        h5 {
+            font-size: 14px;
+            line-height: 1.4;
+            text-align: center;
+            color: #686d73;
+        }
+
+        }
+        }
+        /*////////////////////////////////////////////////////////////////////////////////
+            ////////////////////////////////////////////////////////////////////////////
+        */
+        input, textarea {
+            margin-left: 10px;
+            text-align: right;
+            margin-bottom: 20px;
+        }
+
+        .my-5 {
+            display: flex;
+            margin-top: 3rem !important;
+            margin-bottom: 3rem !important;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        body {
+            font-family: 'Lato', sans-serif;
+        }
+
+        h1 {
+            margin-bottom: 40px;
+        }
+
+        input,
+        textarea {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+
+        label {
+            color: rgba(1, 143, 252, 0.5);
+            display: block;
+            text-align: right;
+        }
+
+        .btn-send {
+            font-weight: 300;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            width: 100%;
+            margin-left: 3px;
+        }
+
+        .help-block.with-errors {
+            color: rgba(0, 58, 102, 0.5);
+            margin-top: 5px;
+        }
+
+        .card {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    </style>
+    <body>
+        @using (Html.BeginForm())
+        {
+
+
+            <!-- Topbar Start -->
+            <div class="container-fluid bg-primary px-5 d-none d-lg-block">
+                <div class="row gx-0 align-items-center">
+                    <div class="col-lg-5 text-center text-lg-start mb-lg-0">
+                        <div class="d-flex">
+                            <a href="#" class="text-muted me-4">
+                                <i class="fas fa-envelope text-secondary me-2"></i>jordanvoice@gmail.com
+                            </a>
+                            <a href="#" class="text-muted me-0">
+                                <i class="fas fa-phone-alt text-secondary me-2"></i>+01234567890
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 row-cols-1 text-center mb-2 mb-lg-0">
+                        <div class="d-inline-flex align-items-center" style="height: 45px;">
+                            <a class="btn btn-sm btn-outline-light btn-square rounded-circle me-2" href="">
+                                <i class="fab fa-twitter fw-normal text-secondary"></i>
+                            </a>
+                            <a class="btn btn-sm btn-outline-light btn-square rounded-circle me-2" href="">
+                                <i class="fab fa-facebook-f fw-normal text-secondary"></i>
+                            </a>
+                            <a class="btn btn-sm btn-outline-light btn-square rounded-circle me-2" href="">
+                                <i class="fab fa-linkedin-in fw-normal text-secondary"></i>
+                            </a>
+                            <a class="btn btn-sm btn-outline-light btn-square rounded-circle me-2" href="">
+                                <i class="fab fa-instagram fw-normal text-secondary"></i>
+                            </a>
+                            <a class="btn btn-sm btn-outline-light btn-square" href="">
+                                <i class="fab fa-youtube fw-normal text-secondary"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 text-center text-lg-end">
+                        <div class="d-inline-flex align-items-center" style="height: 45px;">
+                            <a href="#" class="text-muted me-2"> Help</a><small> / </small>
+                            <a href="#" class="text-muted mx-2"> Support</a><small> / </small>
+                            <a href="#" class="text-muted ms-2"> Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Topbar End -->
+            <!-- Navbar & Hero Start -->
+            <div class="container-fluid nav-bar p-0">
+                <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
+                    <a href="" class="navbar-brand p-0">
+                        <h1 class="display-5 text-secondary m-0">
+                            <img src="img/brand-logo.png" class="img-fluid" alt="">Travisa
+                        </h1>
+                        <!-- <img src="img/logo.png" alt="Logo"> -->
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="fa fa-bars"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto py-0">
+                            <a href="index.html" class="nav-item nav-link">Home</a>
+                            <a href="about.html" class="nav-item nav-link">About</a>
+                            <a href="service.html" class="nav-item nav-link active">Service</a>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link" data-bs-toggle="dropdown">
+                                    <span class="dropdown-toggle">Pages</span>
+                                </a>
+                                <div class="dropdown-menu m-0">
+                                    <a href="feature.html" class="dropdown-item">Feature</a>
+                                    <a href="countries.html" class="dropdown-item">Countries</a>
+                                    <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                    <a href="training.html" class="dropdown-item">Training</a>
+                                    <a href="404.html" class="dropdown-item">404 Page</a>
+                                </div>
+                            </div>
+                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        </div>
+                        <button class="btn btn-primary btn-md-square border-secondary mb-3 mb-md-3 mb-lg-0 me-3"
+                                data-bs-toggle="modal" data-bs-target="#searchModal">
+                            <i class="fas fa-search"></i>
+                        </button>
+                        <a href=""
+                           class="btn btn-primary border-secondary rounded-pill py-2 px-4 px-lg-3 mb-3 mb-md-3 mb-lg-0">
+                            Get A
+                            Quote
+                        </a>
+                    </div>
+                </nav>
+            </div>
+            <!-- Navbar & Hero End -->
+            <!-- Modal Search Start -->
+            <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-fullscreen">
+                    <div class="modal-content rounded-0">
+                        <div class="modal-header">
+                            <h4 class="modal-title text-secondary mb-0" id="exampleModalLabel">Search by keyword</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body d-flex align-items-center">
+                            <div class="input-group w-75 mx-auto d-flex">
+                                <input type="search" class="form-control p-3" placeholder="keywords"
+                                       aria-describedby="search-icon-1">
+                                <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal Search End -->
+            <!-- Header Start -->
+            <div class="container-fluid bg-breadcrumb">
+                <div class="container text-center py-5" style="max-width: 900px;">
+                    <h3 class="display-3 text-white mb-3">Service</h3>
+                    <nav aria-label="breadcrumb" class="d-flex justify-content-center">
+                        <ol class="breadcrumb mb-0">
+                            <li class="breadcrumb-item"><a href="#" class="text-white">Home</a></li>
+                            <li class="breadcrumb-item active text-white" aria-current="page">Service</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+            <!-- Header End -->
+            <!-- Page Content Start -->
+            <section class="container my-5">
+                <h1>Payment Selection</h1>
+                <form id="paymentForm">
+
+                    <div class="grid-wrapper grid-col-auto">
+                        <label for="radio-card-1" class="radio-card">
+                            <input type="radio" name="paymentOption" id="radio-card-1" value="visa" required />
+                            <div class="card-content-wrapper">
+                                <span class="check-icon"></span>
+                                <div class="card-content">
+                                    <img src="~/Content/img/visa.jpg" alt="" />
+
+                                </div>
+                            </div>
+                        </label>
+                        <!-- /.radio-card -->
+
+                        <label for="radio-card-2" class="radio-card">
+                            <input type="radio" name="paymentOption" id="radio-card-2" value="paypal" required />
+                            <div class="card-content-wrapper">
+                                <span class="check-icon"></span>
+                                <div class="card-content">
+                                    <img src="~/Content/img/pay.jpg" alt="" />
+                                </div>
+                            </div>
+                        </label>
+                        <!-- /.radio-card -->
+                    </div>
+
+                    <br /> <br />
+                           <form action="@Url.Action("Checkout", "Home")" method="post">
+                               <button type="submit" class="btn btn-primary">اتمام العملية</button>
+                           </form>               
+                </form>
+            </section>
+            <!-- Page Content End -->
+            <!-- JavaScript Libraries -->
+            <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+            <script src="lib/wow/wow.min.js"></script>
+            <script src="lib/easing/easing.min.js"></script>
+            <script src="lib/waypoints/waypoints.min.js"></script>
+            <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+            <!-- Template Javascript -->
+            <script src="js/main.js"></script>
+
+            <!-- Custom JavaScript to handle form submission -->
+            <script>
+                document.getElementById('paymentForm').addEventListener('submit', function (event) {
+                    event.preventDefault();
+                    const paymentOption = document.querySelector('input[name="paymentOption"]:checked').value;
+                    if (paymentOption === 'visa') {
+                        window.location.href = 'Visa/Index';
+                    } else if (paymentOption === 'paypal') {
+                        window.location.href = 'PayPal/Index';
+                    }
+                });
+            </script>
+
+
+
+
+        }
+    </body>
+</html>
