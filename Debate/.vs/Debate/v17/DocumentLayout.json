@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\Project5\\Debate\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B9731687-6CA1-4E1C-9C2E-D56D82E606B9}|Debate\\Debate.csproj|c:\\users\\orange\\desktop\\project5\\debate\\debate\\views\\tempdebates\\createdebate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9731687-6CA1-4E1C-9C2E-D56D82E606B9}|Debate\\Debate.csproj|solutionrelative:debate\\views\\tempdebates\\createdebate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9731687-6CA1-4E1C-9C2E-D56D82E606B9}|Debate\\Debate.csproj|c:\\users\\orange\\desktop\\project5\\debate\\debate\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{B9731687-6CA1-4E1C-9C2E-D56D82E606B9}|Debate\\Debate.csproj|solutionrelative:debate\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9731687-6CA1-4E1C-9C2E-D56D82E606B9}|Debate\\Debate.csproj|c:\\users\\orange\\desktop\\project5\\debate\\debate\\models\\tempdebate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9731687-6CA1-4E1C-9C2E-D56D82E606B9}|Debate\\Debate.csproj|solutionrelative:debate\\models\\tempdebate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9731687-6CA1-4E1C-9C2E-D56D82E606B9}|Debate\\Debate.csproj|C:\\Users\\Orange\\Desktop\\Project5\\Debate\\debate\\controllers\\tempdebatescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9731687-6CA1-4E1C-9C2E-D56D82E606B9}|Debate\\Debate.csproj|solutionrelative:debate\\controllers\\tempdebatescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9731687-6CA1-4E1C-9C2E-D56D82E606B9}|Debate\\Debate.csproj|c:\\users\\orange\\desktop\\project5\\debate\\debate\\views\\tempdebates\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9731687-6CA1-4E1C-9C2E-D56D82E606B9}|Debate\\Debate.csproj|solutionrelative:debate\\views\\tempdebates\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9731687-6CA1-4E1C-9C2E-D56D82E606B9}|Debate\\Debate.csproj|c:\\users\\orange\\desktop\\project5\\debate\\debate\\views\\tempdebates\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9731687-6CA1-4E1C-9C2E-D56D82E606B9}|Debate\\Debate.csproj|solutionrelative:debate\\views\\tempdebates\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TempDebate.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Project5\\Debate\\Debate\\Models\\TempDebate.cs",
+              "RelativeDocumentMoniker": "Debate\\Models\\TempDebate.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Project5\\Debate\\Debate\\Models\\TempDebate.cs",
+              "RelativeToolTip": "Debate\\Models\\TempDebate.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA9wBMAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T07:15:37.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Success.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Project5\\Debate\\Debate\\Views\\TempDebates\\Success.cshtml",
+              "RelativeDocumentMoniker": "Debate\\Views\\TempDebates\\Success.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Project5\\Debate\\Debate\\Views\\TempDebates\\Success.cshtml",
+              "RelativeToolTip": "Debate\\Views\\TempDebates\\Success.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB8AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T07:01:44.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Project5\\Debate\\Debate\\Models\\Model1.edmx",
+              "RelativeDocumentMoniker": "Debate\\Models\\Model1.edmx",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Project5\\Debate\\Debate\\Models\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "Debate\\Models\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-08-06T06:14:03.193Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Project5\\Debate\\Debate\\Views\\TempDebates\\Create.cshtml",
+              "RelativeDocumentMoniker": "Debate\\Views\\TempDebates\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Project5\\Debate\\Debate\\Views\\TempDebates\\Create.cshtml",
+              "RelativeToolTip": "Debate\\Views\\TempDebates\\Create.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAC0AAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T06:07:53.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateDebate.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Project5\\Debate\\Debate\\Views\\TempDebates\\CreateDebate.cshtml",
+              "RelativeDocumentMoniker": "Debate\\Views\\TempDebates\\CreateDebate.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Project5\\Debate\\Debate\\Views\\TempDebates\\CreateDebate.cshtml",
+              "RelativeToolTip": "Debate\\Views\\TempDebates\\CreateDebate.cshtml",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAAAMoAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T18:17:37.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TempDebatesController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Project5\\Debate\\Debate\\Controllers\\TempDebatesController.cs",
+              "RelativeDocumentMoniker": "Debate\\Controllers\\TempDebatesController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Project5\\Debate\\Debate\\Controllers\\TempDebatesController.cs",
+              "RelativeToolTip": "Debate\\Controllers\\TempDebatesController.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAqwEwAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T18:00:02.932Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
